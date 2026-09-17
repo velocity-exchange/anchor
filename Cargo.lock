@@ -396,7 +396,7 @@ dependencies = [
  "quote",
  "serde_json",
  "sha2 0.10.9",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "syn 2.0.117",
 ]
 
@@ -438,7 +438,7 @@ dependencies = [
  "pinocchio",
  "pinocchio-system",
  "sha2 0.10.9",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-instruction 3.4.0",
  "solana-msg 3.1.0",
  "solana-program-error 3.0.0",
@@ -525,7 +525,7 @@ dependencies = [
  "pinocchio",
  "pinocchio-token",
  "pinocchio-token-2022",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-instruction 3.4.0",
  "solana-program-error 3.0.0",
  "solana-program-pack 3.1.0",
@@ -2639,7 +2639,7 @@ version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "23f76610e969fa1784327ded240f1e28a3fd9520c9cec93b636fcf62dd37f772"
 dependencies = [
- "five8_core 1.0.0",
+ "five8_core 0.1.2",
 ]
 
 [[package]]
@@ -2657,7 +2657,7 @@ version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1a0f1728185f277989ca573a402716ae0beaaea3f76a8ff87ef9dd8fb19436c5"
 dependencies = [
- "five8_core 1.0.0",
+ "five8_core 0.1.2",
 ]
 
 [[package]]
@@ -3756,7 +3756,7 @@ dependencies = [
  "serde",
  "sha2 0.10.9",
  "solana-account 3.4.0",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-address-lookup-table-interface 3.0.1",
  "solana-bpf-loader-program",
  "solana-builtins",
@@ -4355,7 +4355,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d707cea2843c1a2fd8ec49e4116ce3fdaedcd552a3ee168b03ce60e627fc0f62"
 dependencies = [
  "solana-account-view",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-define-syscall 5.2.0",
  "solana-instruction-view",
  "solana-program-error 3.0.0",
@@ -4368,7 +4368,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b47216785b5877051afa074920e88b5990c4ce74f0da94c7cb5a139684c48ffe"
 dependencies = [
  "pinocchio",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
 ]
 
 [[package]]
@@ -4378,7 +4378,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "825f59c8348e5c2d3fd56432ef927f5819542b3b05fae4f5b6869801113e775e"
 dependencies = [
  "solana-account-view",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-instruction-view",
  "solana-program-error 3.0.0",
 ]
@@ -4390,7 +4390,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "57dbab5718ab6ae446b2217c47598fabd29173a09bd32b05344f031739db92b8"
 dependencies = [
  "solana-account-view",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-instruction-view",
  "solana-program-error 3.0.0",
 ]
@@ -5755,7 +5755,7 @@ checksum = "a9cf16495d9eb53e3d04e72366a33bb1c20c24e78c171d8b8f5978357b63ae95"
 dependencies = [
  "bincode",
  "serde_core",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-program-error 3.0.0",
  "solana-program-memory 3.1.0",
 ]
@@ -5766,7 +5766,7 @@ version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fc141b940560430425ebaadb7645496c45f6a10fad9911d719bd03eab7f4d422"
 dependencies = [
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-program-error 3.0.0",
 ]
 
@@ -5776,14 +5776,14 @@ version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2ecac8e1b7f74c2baa9e774c42817e3e75b20787134b76cc4d45e8a604488f5"
 dependencies = [
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
 ]
 
 [[package]]
 name = "solana-address"
-version = "2.7.0"
+version = "2.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "01332a01c0a3098404d55a724c8d9a92aed4a50fe40a7dd0c7a51e29274c14de"
+checksum = "39c93e262f671bf402e1040e4a7e40b05d81da5956c7681948c975a0997517bb"
 dependencies = [
  "borsh 1.6.1",
  "bytemuck",
@@ -5799,7 +5799,7 @@ dependencies = [
  "solana-program-error 3.0.0",
  "solana-sanitize 3.0.1",
  "solana-sha256-hasher 3.1.0",
- "wincode 0.6.1",
+ "wincode 0.5.4",
 ]
 
 [[package]]
@@ -6674,7 +6674,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6ab7a27d0c4214b9f7389c3dd00b68c93093a67f1dcc5b7893aebe299bbcbb47"
 dependencies = [
  "solana-account-view",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-define-syscall 5.2.0",
  "solana-program-error 3.0.0",
 ]
@@ -6761,7 +6761,7 @@ dependencies = [
  "five8 1.0.0",
  "five8_core 1.0.0",
  "rand 0.9.2",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-derivation-path",
  "solana-seed-derivable",
  "solana-seed-phrase",
@@ -7480,7 +7480,7 @@ version = "4.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1b06bd918d60111ee1f97de817113e2040ca0cedb740099ee8d646233f6b906c"
 dependencies = [
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
 ]
 
 [[package]]
@@ -7775,7 +7775,7 @@ version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "def234c1956ff616d46c9dd953f251fa7096ddbaa6d52b165218de97882b7280"
 dependencies = [
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
 ]
 
 [[package]]
@@ -8227,7 +8227,7 @@ dependencies = [
  "num-traits",
  "serde",
  "serde_derive",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-instruction 3.4.0",
  "solana-msg 3.1.0",
  "solana-program-error 3.0.0",
@@ -8346,7 +8346,7 @@ version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "17358d1e9a13e5b9c2264d301102126cf11a47fd394cdf3dec174fe7bc96e1de"
 dependencies = [
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-sdk-ids 3.1.0",
 ]
 
@@ -8412,7 +8412,7 @@ dependencies = [
  "bincode",
  "serde",
  "serde_derive",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-hash 4.2.0",
  "solana-instruction 3.4.0",
  "solana-instruction-error",
@@ -9273,7 +9273,7 @@ dependencies = [
  "serde_json",
  "sha2 0.10.9",
  "solana-account 3.4.0",
- "solana-address 2.7.0",
+ "solana-address 2.6.1",
  "solana-keypair",
  "solana-loader-v3-interface 6.1.0",
  "solana-message 3.0.1",
@@ -10333,6 +10333,19 @@ name = "wincode"
 version = "0.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dc91ddd8c932a38bbec58ed536d9e93ce9cd01b6af9b6de3c501132cf98ddec6"
+dependencies = [
+ "pastey",
+ "proc-macro2",
+ "quote",
+ "thiserror 2.0.18",
+ "wincode-derive 0.4.5",
+]
+
+[[package]]
+name = "wincode"
+version = "0.5.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "37095eb18dd6254c66217edc61a29d83d51f8818de8a2ffe88e4584ad73fb5f9"
 dependencies = [
  "pastey",
  "proc-macro2",
